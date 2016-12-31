@@ -15,6 +15,8 @@
 		9296B4EA1BC2E35A002302EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9296B4E91BC2E35A002302EB /* Images.xcassets */; };
 		9296B4ED1BC2E35A002302EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9296B4EB1BC2E35A002302EB /* LaunchScreen.xib */; };
 		9296B4F91BC2E35A002302EB /* AppSqlWp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296B4F81BC2E35A002302EB /* AppSqlWp1Tests.m */; };
+		9296B5041BC2E7D6002302EB /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296B5031BC2E7D6002302EB /* HomeModel.m */; };
+		9296B5071BC2E811002302EB /* Indirizzo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296B5061BC2E811002302EB /* Indirizzo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		9296B4F21BC2E35A002302EB /* AppSqlWp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSqlWp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9296B4F71BC2E35A002302EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9296B4F81BC2E35A002302EB /* AppSqlWp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSqlWp1Tests.m; sourceTree = "<group>"; };
+		9296B5021BC2E7D6002302EB /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		9296B5031BC2E7D6002302EB /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		9296B5051BC2E811002302EB /* Indirizzo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indirizzo.h; sourceTree = "<group>"; };
+		9296B5061BC2E811002302EB /* Indirizzo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indirizzo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				9296B4E31BC2E35A002302EB /* ViewController.h */,
 				9296B4E41BC2E35A002302EB /* ViewController.m */,
 				9296B4E61BC2E35A002302EB /* Main.storyboard */,
+				9296B5021BC2E7D6002302EB /* HomeModel.h */,
+				9296B5031BC2E7D6002302EB /* HomeModel.m */,
+				9296B5051BC2E811002302EB /* Indirizzo.h */,
+				9296B5061BC2E811002302EB /* Indirizzo.m */,
 				9296B4E91BC2E35A002302EB /* Images.xcassets */,
 				9296B4EB1BC2E35A002302EB /* LaunchScreen.xib */,
 				9296B4E01BC2E35A002302EB /* AppSqlWp1.xcdatamodeld */,
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9296B5041BC2E7D6002302EB /* HomeModel.m in Sources */,
 				9296B4E21BC2E35A002302EB /* AppSqlWp1.xcdatamodeld in Sources */,
 				9296B4DF1BC2E35A002302EB /* AppDelegate.m in Sources */,
 				9296B4E51BC2E35A002302EB /* ViewController.m in Sources */,
+				9296B5071BC2E811002302EB /* Indirizzo.m in Sources */,
 				9296B4DC1BC2E35A002302EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				9296B4FE1BC2E35A002302EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9296B4FF1BC2E35A002302EB /* Build configuration list for PBXNativeTarget "AppSqlWp1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				9296B5011BC2E35A002302EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
